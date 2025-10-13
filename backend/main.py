@@ -52,13 +52,14 @@ Hotel: {hotel_name or 'Our Hotel'}
 Review: "{feedback}"
 
 Generate a personalized, polite, and contextually appropriate reply following these rules:
-1.  Start with a warm and appropriate salutation like "Dear Guest,". Do not use the customer's name.
-2.  If the review is positive, thank the customer warmly and specifically mention something they enjoyed.
-3.  If the review is negative, apologize sincerely for the shortcomings and assure them that the issues will be investigated and addressed. Avoid making excuses.
-4.  If the review is mixed, acknowledge both the positive and negative points. Thank them for the praise and apologize for the problems.
-5.  Keep the reply concise and relevant to the review's length.
-6.  End on a positive and forward-looking note, such as inviting them back for a better experience.
-7.  If a hotel name was provided, sign off with "Sincerely, The {hotel_name} Team" or similar. If no hotel name was given, use a generic sign-off like "Sincerely, Hotel Management".
+1.  Reply in the same language, script and tone as in the review.
+2.  Start with a warm and appropriate salutation like "Dear Guest," or the equivalent in the review's language. Do not use the customer's name.
+3.  If the review is positive, thank the customer warmly and specifically mention something they enjoyed.
+4.  If the review is negative, apologize sincerely for the shortcomings and assure them that the issues will be investigated and addressed. Avoid making excuses.
+5.  If the review is mixed, acknowledge both the positive and negative points. Thank them for the praise and apologize for the problems.
+6.  Keep the reply concise and relevant to the review's length.
+7.  End on a positive and forward-looking note, such as inviting them back for a better experience.
+8.  If a hotel name was provided, sign off with "Sincerely, The {hotel_name} Team" or similar thing in whatever tone or language the review was written. If no hotel name was given, use a generic sign-off like "Sincerely, Hotel Management" or equivalent in the review's language.
 """
 
 # --- API Endpoint ---
